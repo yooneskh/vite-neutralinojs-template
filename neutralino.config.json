@@ -29,6 +29,6 @@
   "cli": {
     "binaryName": "neu-vite-yooneskh",
     "resourcesPath": "/resources/",
-    "clientLibrary": "/resources/js/neutralino.js"
+    "clientLibrary": "/resources/neutralino.js"
   }
 }
