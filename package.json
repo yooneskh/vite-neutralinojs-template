@@ -4,6 +4,7 @@
   "description": "Starter template for Neutralino.js with Vite.js",
   "scripts": {
     "dev": "vite",
+    "dev:neu": "vite build && neu run",
     "build": "vite build && neu build --release"
   },
   "author": "Yoones Khoshghadam <yooneskh@gmail.com>",
