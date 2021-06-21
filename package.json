@@ -9,7 +9,7 @@
   "author": "Yoones Khoshghadam <yooneskh@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "vue": "3.0.5"
+    "vue": "3.1.1"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "1.2.3",
