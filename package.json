@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "vite",
     "dev:neu": "vite build && neu run",
-    "build": "vite build && neu build --release"
+    "build": "vite build && neu build --release",
+    "lint": "exit 0;"
   },
   "author": "Yoones Khoshghadam <yooneskh@gmail.com>",
   "license": "ISC",
@@ -13,8 +14,8 @@
     "vue": "3.1.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "1.2.3",
-    "@vue/compiler-sfc": "3.1.2",
-    "vite": "2.3.8"
+    "@vitejs/plugin-vue": "1.9.4",
+    "@vue/compiler-sfc": "3.2.21",
+    "vite": "2.6.14"
   }
 }
