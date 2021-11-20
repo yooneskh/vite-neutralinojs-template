@@ -1,13 +1,12 @@
 {
   "applicationId": "com.khoshghadam.neuvite",
-  "port": 0,
+  "port": 8080,
   "defaultMode": "window",
-  "enableHTTPServer": true,
+  "enableServer": true,
   "enableNativeAPI": true,
-  "url": "/resources/",
-  "nativeBlockList": [],
-  "globalVariables": {
-    "TEST": "Test Value"
+  "url": "/dist/",
+  "logging": {
+    "enabled": true
   },
   "modes": {
     "window": {
@@ -18,17 +17,20 @@
       "minHeight": 250,
       "fullScreen": false,
       "alwaysOnTop": false,
-      "icon": "/resources/icons/appIcon.png",
+      "icon": "/files/icons/icon.png",
       "enableInspector": false,
       "borderless": false,
-      "maximize": false
+      "maximize": false,
+      "exitProcessOnClose": true
     },
     "browser": {},
     "cloud": {}
   },
   "cli": {
     "binaryName": "neu-vite-yooneskh",
-    "resourcesPath": "/resources/",
-    "clientLibrary": "/resources/neutralino.js"
+    "resourcesPath": "/dist/",
+    "clientLibrary": "/resources/neutralino.js",
+    "binaryVersion": "3.0.0",
+    "clientVersion": "2.0.0"
   }
 }

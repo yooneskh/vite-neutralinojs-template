@@ -3,19 +3,19 @@
   "version": "1.0.2",
   "description": "Starter template for Neutralino.js with Vite.js",
   "scripts": {
-    "dev": "vite",
-    "dev:neu": "vite build && neu run",
+    "serve": "vite",
+    "serve:neu": "vite build && neu run",
     "build": "vite build && neu build --release",
     "lint": "exit 0;"
   },
   "author": "Yoones Khoshghadam <yooneskh@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "vue": "3.1.2"
+    "@neutralinojs/neu": "7.0.1",
+    "vue": "3.2.21"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "1.9.4",
-    "@vue/compiler-sfc": "3.2.21",
     "vite": "2.6.14"
   }
 }
